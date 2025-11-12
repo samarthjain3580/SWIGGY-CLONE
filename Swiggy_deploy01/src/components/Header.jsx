@@ -18,19 +18,19 @@ function Header() {
                </div>
                <div className='flex mx-4'>
                     <span className='text-2xl mt-1'> <BiSolidOffer /> </span>
-                    <Link><li className='ml-4 text-2xl'>Offers</li></Link>
+                    <Link to='/offer'><li className='ml-4 text-2xl'>Offers</li></Link>
                </div>
                 <div className='flex mx-4'>
                     <span className='text-2xl mt-1'> <IoIosHelpBuoy/> </span>
-                    <Link><li className='ml-4 text-2xl'>Help</li></Link>
+                    <Link to='/help'><li className='ml-4 text-2xl'>Help</li></Link>
                 </div>
                 <div className='flex mx-4'>
                     <span className='text-2xl mt-1'> <CgProfile /></span>
-                    <Link><li className='ml-4 text-2xl'>Signin</li></Link>
+                    <Link to='/signIn'><li className='ml-4 text-2xl'>Signin</li></Link>
                 </div>
                 <div className='flex mx-4'>
                     <span className='text-2xl mt-1'> <FaCartShopping/> </span>
-                    <Link><li className='ml-4 text-2xl'>Cart</li></Link>
+                    <Link to='/cart'><li className='ml-4 text-2xl'>Cart</li></Link>
                 </div>
             </ul>
         </nav>
